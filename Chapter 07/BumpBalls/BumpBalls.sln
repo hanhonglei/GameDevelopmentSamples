@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BumpBalls", "BumpBalls\BumpBalls.vcxproj", "{EF950533-4802-48A9-AF4E-701476DD6D02}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF950533-4802-48A9-AF4E-701476DD6D02}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EF950533-4802-48A9-AF4E-701476DD6D02}.Debug|Win32.Build.0 = Debug|Win32
+		{EF950533-4802-48A9-AF4E-701476DD6D02}.Release|Win32.ActiveCfg = Release|Win32
+		{EF950533-4802-48A9-AF4E-701476DD6D02}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
