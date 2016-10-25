@@ -9,6 +9,6 @@ In some PC that never installed `Visual Studio`, may require Microsoft Visual C+
 
 You can open all samples in the `Visual Studio` project named `GameDevelopmentHan`, or you can open them separately from their own folders using `Visual Studio`.
 
-When you use the former method, you should first set a sub-project as the 'StartUp Project'. And then, try to build and debug run it.
+When you use the former method, you should first set a sub-project as the `StartUp Project`. And then, try to build and debug run it.
 
 More information please check from the book [here](http://product.dangdang.com/23951820.html), or [here](http://www.cuc.edu.cn/cgzt/5564.html).
