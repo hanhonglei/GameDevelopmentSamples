@@ -1,4 +1,7 @@
 # GameDevelopmentSamples
+
+- More information, please feel free to visit my personal website [here](https://hanhonglei.github.io/).
+
 Samples of all chapters in the book `Game Development Programming Foundation`
 
 They are all programmed using `C/C++` language, and built successfully in `Microsoft Visual Studio 2010` using `Win32` framwork.
