@@ -2,6 +2,8 @@
 
 - More information, please feel free to visit my personal website [here](https://hanhonglei.github.io/).
 
+- Update 2018-5-31. Use Microsoft Visual Studio 2017 to compile all projects. Please download free version [here](https://docs.microsoft.com/zh-cn/visualstudio/install/install-visual-studio).
+
 Samples of all chapters in the book `Game Development Programming Foundation`
 
 They are all programmed using `C/C++` language, and built successfully in `Microsoft Visual Studio 2010` using `Win32` framwork.
