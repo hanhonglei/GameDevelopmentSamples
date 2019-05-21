@@ -9,6 +9,7 @@
 
 #include "stdafx.h"
 #include "Expression.h"
+#include <stdio.h>
 
 #define MAX_LOADSTRING 100
 
@@ -190,7 +191,8 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 		else if (wParam == '=')									// 玩家输入等号,进行运算
 		{
 			input[num++] = ' ';
-			swscanf(str, L"%f %c %f", &x, &oper, &y);			// 获取参与运算的数字及运算符
+			// 修改为安全模式的scanf
+			sscanf_s(input, "%f %c %f", &x, &oper, 1, &y);		// 获取参与运算的数字及运算符
 			if (oper == '+')									// 依据运算符类型进行不同运算
 				result = x + y;									// 算术表达式
 			else if( oper == '-')
