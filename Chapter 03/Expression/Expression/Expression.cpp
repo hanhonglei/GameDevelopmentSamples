@@ -215,7 +215,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 		if (bResult)											// 如果有计算结果,则在下一行输出结果
 		{
 			WCHAR str2[16];
-			swprintf(str2, L"%f", result);
+			swprintf(str2, 16, L"%f", result);
 			TextOut(hdc, 0, 40, str2, wcslen(str2));
 		}	
 		EndPaint(hWnd, &ps);

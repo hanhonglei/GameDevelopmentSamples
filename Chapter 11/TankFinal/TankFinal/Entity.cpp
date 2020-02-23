@@ -46,10 +46,10 @@ void NextFrame(Entity *ent, int ts)
 {
 	if (ent == NULL)
 		return;
-	if(ent->f == ent->frames-1)
-		ent->animD = 1;
+	if (ent->f == ent->frames - 1)
+		ent->animD = -1;		// 向左选择下一帧
 	else if (ent->f == 0)
-		ent->animD = 1;
+		ent->animD = 1;			// 向右选择下一帧
 
 	ent->f = (ent->f+ent->animD)%ent->frames;
 }

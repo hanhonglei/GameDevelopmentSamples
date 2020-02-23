@@ -2,6 +2,8 @@
 
 - More information, please feel free to visit my personal website [here](https://hanhonglei.github.io/).
 
+- Update 2020-2-23. Use Microsoft Visual Studio 2019 to compile all projects. And put them into folder `_VS2019`. Please download free version [here](https://docs.microsoft.com/zh-cn/visualstudio/install/install-visual-studio).
+
 - Update 2018-5-31. Use Microsoft Visual Studio 2017 to compile all projects. Please download free version [here](https://docs.microsoft.com/zh-cn/visualstudio/install/install-visual-studio).
 
 Samples of all chapters in the book `Game Development Programming Foundation`
